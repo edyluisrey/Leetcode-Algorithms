@@ -9,16 +9,16 @@ public class PalindromeNumber {
 
 	}
 	public static boolean isPalindrome(int x) {
-        int newNumber =x;
-        int reverse=0;
-        while(newNumber>0){
-        	reverse= reverse*10+newNumber%10;
-        	newNumber= newNumber/10;
-        }
-        if(reverse==x)
-        	return true;
-        else
-        	return false;
+		int newNumber =x;
+		int reverse=0;
+		while(newNumber>0){
+			reverse= reverse*10+newNumber%10;
+			newNumber= newNumber/10;
+		}
+		if(reverse==x)
+			return true;
+		else
+			return false;
     }
 
 }
