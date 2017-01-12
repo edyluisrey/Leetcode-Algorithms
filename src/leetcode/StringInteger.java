@@ -3,11 +3,11 @@ package leetcode;
 public class StringInteger {
 
 	public static void main(String[] args) {
-       System.out.println(myAtoi("-0012a42"));		
-       System.out.println(myAtoi("+-2"));	
-       System.out.println(myAtoi("a3"));
-       System.out.println(myAtoi("9223372036854775809"));
-       System.out.println(myAtoi("922337"));
+		   System.out.println(myAtoi("-0012a42"));		
+		   System.out.println(myAtoi("+-2"));	
+		   System.out.println(myAtoi("a3"));
+		   System.out.println(myAtoi("9223372036854775809"));
+		   System.out.println(myAtoi("922337"));
 
 	}
 	
