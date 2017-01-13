@@ -6,7 +6,7 @@ public class LongestPalindromicSubstring {
 		LongestPalindromicSubstring lp = new LongestPalindromicSubstring(); 
 		System.out.println(lp.longestPalindrome("babad")); 
 		System.out.println(lp.longestPalindrome("bbb"));
-		System.out.println(lp.longestPalindrome("aa"));
+		System.out.println(lp.longestPalindrome("a"));
 		System.out.println(lp.longestPalindrome("cbbd"));
 	}
 	public String longestPalindrome(String s) {
