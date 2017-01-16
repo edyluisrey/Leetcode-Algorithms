@@ -22,7 +22,7 @@ public class RomanInteger {
 		int result = map.get(s.charAt(0));
 		for(int i = 1; i < s.length(); i++){
 			previous = map.get(s.charAt(i-1));
-			current = map.get(s.charAt(i));   System.out.println(result - previous + (current-previous));
+			current = map.get(s.charAt(i));   
 			result = previous<current? result - previous + (current-previous):result+current;
 		}
 		return result;
