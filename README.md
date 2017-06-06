@@ -3,6 +3,8 @@
 My current statistic 
   - [Leetcode](https://leetcode.com/edyluisrey/)
 
+| problems                      | Solutions  | From
+| ------------------------------------------------------- |:------------:| --------------------------:|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/AddTwoNumbers.java)       | LeetCode Online Judge        |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/LongestSubstring.java)       | LeetCode Online Judge        |
 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/ZigZagConversion.java)       | LeetCode Online Judge        |
@@ -17,4 +19,3 @@ My current statistic
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/MergeTwoSortedLists.java)      | LeetCode Online Judge        |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/ContainerWithMostWater.java)      | LeetCode Online Judge        |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/RemoveDuplicatesfromSortedArray.java)      | LeetCode Online Judge        |
-  
