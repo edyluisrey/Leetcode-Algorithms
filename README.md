@@ -3,7 +3,7 @@
 My current statistic 
   - [Leetcode](https://leetcode.com/edyluisrey/)
 
-| problems                      | Solutions  | From
+| problems                      | Solutions  | 
 | ------------------------------------------------------- |:------------:| --------------------------:|
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/AddTwoNumbers.java)       | LeetCode Online Judge        |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/LongestSubstring.java)       | LeetCode Online Judge        |
