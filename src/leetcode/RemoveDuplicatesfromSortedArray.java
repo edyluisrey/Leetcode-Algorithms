@@ -17,7 +17,7 @@ public class RemoveDuplicatesfromSortedArray {
         	}else{
         		nums[++index]=nums[i+1];
         	}
-        }  System.out.println(Arrays.toString(nums));
+        }  //System.out.println(Arrays.toString(nums));
         return nums.length-len;
     }
 
