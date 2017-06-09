@@ -22,3 +22,10 @@ My current statistic
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/MergeTwoSortedLists.java)      | LeetCode Online Judge        |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/ContainerWithMostWater.java)      | LeetCode Online Judge        |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/RemoveDuplicatesfromSortedArray.java)      | LeetCode Online Judge        |
+| [Remove Element](https://leetcode.com/problems/remove-element/#/description)   | [Java]()      | LeetCode Online Judge        |
+| [Same Tree](https://leetcode.com/problems/same-tree/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/SameTree.java)      | LeetCode Online Judge        |
+| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/SymmetricTree.java)      | LeetCode Online Judge        |
+| [3Sum Closest](https://leetcode.com/problems/3sum-closest/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/TreeSumClosest.java)      | LeetCode Online Judge        |
+| [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/SortCharactersByFrequency.java)      | LeetCode Online Judge        |
+| [Kill Process](https://leetcode.com/problems/kill-process/#/description)   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
