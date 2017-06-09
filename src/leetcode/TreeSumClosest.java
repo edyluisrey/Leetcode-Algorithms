@@ -12,25 +12,25 @@ public class TreeSumClosest {
 	
 	public int threeSumClosest(int[] nums, int target) {
 		Arrays.sort(nums);
-        int result = 0;
-        int dist = Integer.MAX_VALUE;
-        for(int i =0; i< nums.length; i++){
-        	int l = i+1;
-        	int r= nums.length-1;
-        	while(l<r){
-        	    int sum= nums[i] + nums[l] + nums[r];
-        	    int temp = Math.abs(sum- target);
-        	    if(temp< dist){
-        	    	dist= temp;
-        	    	result= sum; 
-        	    }
-        	    if(sum>target)
-        	    	r--;
-        	    else
-        	    	l++;
-        	}
-        }
-        return result;
+		int result = 0;
+		int dist = Integer.MAX_VALUE;
+		for(int i =0; i< nums.length; i++){
+			int l = i+1;
+			int r= nums.length-1;
+			while(l<r){
+			    int sum= nums[i] + nums[l] + nums[r];
+			    int temp = Math.abs(sum- target);
+			    if(temp< dist){
+			    	dist= temp;
+			    	result= sum; 
+			    }
+			    if(sum>target)
+			    	r--;
+			    else
+			    	l++;
+			}
+		}
+		return result;
     }
 
 }
