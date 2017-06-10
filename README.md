@@ -28,4 +28,16 @@ My current statistic
 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/TreeSumClosest.java)      | LeetCode Online Judge        |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/SortCharactersByFrequency.java)      | LeetCode Online Judge        |
 | [Kill Process](https://leetcode.com/problems/kill-process/#/description)   | [Java]()      | LeetCode Online Judge        |
+| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/#/description)   | [Java](https://github.com/edyluisrey/Leetcode-Algorithms/blob/master/src/leetcode/IsomorphicStrings.java)      | LeetCode Online Judge        |
+| [Intersection of Two Arrays]()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
+| []()   | [Java]()      | LeetCode Online Judge        |
 | []()   | [Java]()      | LeetCode Online Judge        |
