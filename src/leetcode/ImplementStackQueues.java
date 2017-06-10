@@ -14,7 +14,7 @@ public class ImplementStackQueues {
 }
 
 class MyStack {
-        Queue<Integer> q = new LinkedList();
+		Queue<Integer> q = new LinkedList();
 		/** Initialize your data structure here. */
 		public MyStack() {
 		    
