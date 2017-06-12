@@ -14,20 +14,20 @@ public class NextGreaterElementI {
     }
 	
 	public int[] nextGreaterElement(int[] findNums, int[] nums) {
-	    int[] r= new int[findNums.length];	   
-	    Stack<Integer> s= new Stack<>();
-	    Map<Integer,Integer> map = new HashMap<>();
-	    for(int i =0;i<nums.length;i++){
-	    	while(!s.isEmpty() && nums[i]> s.peek()){
-	    		map.put(s.pop(), nums[i]);
-	    	}
-	    	s.push(nums[i]);
-	    }
-	    
-	    for(int i=0; i< findNums.length;i++){
-	    	int val= (map.get(findNums[i])!=null)?map.get(findNums[i]):-1;
-	    	r[i]= val;
-	    }
-	    return r; 
+		int[] r= new int[findNums.length];	   
+		Stack<Integer> s= new Stack<>();
+		Map<Integer,Integer> map = new HashMap<>();
+		for(int i =0;i<nums.length;i++){
+			while(!s.isEmpty() && nums[i]> s.peek()){
+				map.put(s.pop(), nums[i]);
+			}
+			s.push(nums[i]);
+		}
+		
+		for(int i=0; i< findNums.length;i++){
+			int val= (map.get(findNums[i])!=null)?map.get(findNums[i]):-1;
+			r[i]= val;
+		}
+		return r; 
 	}
 }
