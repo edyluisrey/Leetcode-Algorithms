@@ -6,11 +6,11 @@ public class RotateArray {
 
 	public static void main(String[] args) {
 		RotateArray test = new RotateArray();
-        test.rotate(new int[]{1,2}, 1);
+		test.rotate(new int[]{1,2}, 1);
 	}
 	
 	public void rotate(int[] nums, int k) {
-        int n= nums.length;
+		int n= nums.length;
 		if(k>=n)
 			k = k%n; 
 		int t= n-k;
@@ -23,7 +23,6 @@ public class RotateArray {
 		}
 		for(int i = 0; i<n; i++)
 			nums[i]=  tem[i];
-		System.out.println(Arrays.toString(nums));
     }
 
 }
