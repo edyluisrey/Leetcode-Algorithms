@@ -10,17 +10,17 @@ public class SingleNumber {
 	}
 	
 	public int singleNumber(int[] nums) {
-        Map<Integer,Integer> map = new HashMap<>();
-        for(int i: nums){
-        	if(map.containsKey(i))
-        		map.put(i, map.get(i)+1);
-        	else
-        		map.put(i, 1);
-        }
-        for(Map.Entry e: map.entrySet()){ 
-        	if((int)e.getValue()==1)
-        		return (int)e.getKey();
-        }
-        return 0;
-    }
+		Map<Integer,Integer> map = new HashMap<>();
+		for(int i: nums){
+			if(map.containsKey(i))
+				map.put(i, map.get(i)+1);
+			else
+				map.put(i, 1);
+		}
+		for(Map.Entry e: map.entrySet()){ 
+			if((int)e.getValue()==1)
+				return (int)e.getKey();
+		}
+		return 0;
+	}
 }
