@@ -10,19 +10,19 @@ public class HappyNumber {
 	}
 	
 	public boolean isHappy(int n) {
-        HashSet<Integer> set = new HashSet<>();
-        while(!set.contains(n)){ 
-        	set.add(n);
-        	int sq= 0;
-        	while(n>0){
-        		int digit= n%10;
-        		sq+=digit*digit;
-        		n= n/10;
-        	}  System.out.println(sq);
-        	if(sq==1) return true;        	
-        	n=sq;
-        }
-        return false;
-    }
+		HashSet<Integer> set = new HashSet<>();
+		while(!set.contains(n)){ 
+			set.add(n);
+			int sq= 0;
+			while(n>0){
+				int digit= n%10;
+				sq+=digit*digit;
+				n= n/10;
+			}  System.out.println(sq);
+			if(sq==1) return true;        	
+			n=sq;
+		}
+		return false;
+	}
 
 }
