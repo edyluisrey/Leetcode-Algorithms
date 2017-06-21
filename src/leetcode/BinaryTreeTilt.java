@@ -19,10 +19,10 @@ public class BinaryTreeTilt {
 	}
 	public int sumfindTilt(TreeNode root){
 		if(root==null) return 0;
-	    int l= sumfindTilt(root.left);
-	    int r= sumfindTilt(root.right);  
-	    res= res + Math.abs(l-r);  
-	    return l+r+root.val;
+		int l= sumfindTilt(root.left);
+		int r= sumfindTilt(root.right);  
+		res= res + Math.abs(l-r);  
+		return l+r+root.val;
 	}
 	
 
