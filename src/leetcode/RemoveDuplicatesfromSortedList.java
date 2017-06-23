@@ -16,18 +16,18 @@ public class RemoveDuplicatesfromSortedList {
 	
 	public ListNode deleteDuplicates(ListNode head) {
 		if(head==null) return null;
-        ListNode r= new ListNode(0);
-        ListNode t= r;
-        Set<Integer> set = new HashSet<>();  
-        while(head!=null){  
-        	if(!set.contains(head.val)){
-        		t.next= new ListNode(head.val); 
-        		t= t.next;
-        		set.add(head.val);
-        	}
-        	head= head.next;
-        }
-        return r.next;
+		ListNode r= new ListNode(0);
+		ListNode t= r;
+		Set<Integer> set = new HashSet<>();  
+		while(head!=null){  
+			if(!set.contains(head.val)){
+				t.next= new ListNode(head.val); 
+				t= t.next;
+				set.add(head.val);
+			}
+			head= head.next;
+		}
+		return r.next;
     }
 }
 
