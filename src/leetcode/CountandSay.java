@@ -28,7 +28,6 @@ public class CountandSay {
             }
             str.append(cont).append(prevChar);
             prev = str.toString();
-            System.out.println(i+":"+ prev);
         }
         return prev;
     }
