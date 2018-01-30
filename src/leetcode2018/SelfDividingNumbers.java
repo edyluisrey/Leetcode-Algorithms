@@ -11,9 +11,9 @@ public class SelfDividingNumbers {
 		        list.add(i);
 		}
 		return list;
-    }
-    
-    public boolean selfDividing(int n){
+	}
+	
+	public boolean selfDividing(int n){
 		int temp=n;
 		while(n>9){
 		    int d = n%10;
@@ -24,5 +24,5 @@ public class SelfDividingNumbers {
 		if(temp%n!=0)
 		    return false;
 		return true;
-    }
+	}
 }
