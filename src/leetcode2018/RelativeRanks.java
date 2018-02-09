@@ -13,24 +13,27 @@ public class RelativeRanks {
 		for(int i=0; i<= n; i++){
 		    copy[i]= nums[i];
 		}
-		mergeSort(nums, 0, nums.length-1);        
+		
+		mergeSort(nums, 0, nums.length-1);      
+		
 		for(int i=0; i< nums.length; i++){
 		    if(i==0){
 		        map.put(nums[n-i], "Gold Medal");
-	    }
-	    else if(i==1){
-	        map.put(nums[n-i], "Silver Medal");
-	    }
-	    else if(i==2){
-	        map.put(nums[n-i], "Bronze Medal");
-	    }
-	    else{
-	        map.put(nums[n-i], (i+1)+"");
-		    }
+			}
+			else if(i==1){
+			    map.put(nums[n-i], "Silver Medal");
+			}
+			else if(i==2){
+			    map.put(nums[n-i], "Bronze Medal");
+			}
+			else{
+			    map.put(nums[n-i], (i+1)+"");
+			}
 		}
 		for(int i=0; i< copy.length; i++){
 		    str[i] = map.get(copy[i]); 
 		}
+		
 		return str;
 	}
     
