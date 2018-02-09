@@ -6,32 +6,32 @@ import java.util.Map;
 public class RelativeRanks {
 	
 	public String[] findRelativeRanks(int[] nums) {
-        Map<Integer,String> map = new HashMap<>();
-        String[] str = new String[nums.length];
-        int n =  nums.length-1;
-        int[] copy = new int[n+1];
-        for(int i=0; i<= n; i++){
-            copy[i]= nums[i];
-        }
-        mergeSort(nums, 0, nums.length-1);        
-        for(int i=0; i< nums.length; i++){
-            if(i==0){
-                map.put(nums[n-i], "Gold Medal");
-            }
-            else if(i==1){
-                map.put(nums[n-i], "Silver Medal");
-            }
-            else if(i==2){
-                map.put(nums[n-i], "Bronze Medal");
-            }
-            else{
-                map.put(nums[n-i], (i+1)+"");
-            }
-        }
-        for(int i=0; i< copy.length; i++){
-            str[i] = map.get(copy[i]); 
-        }
-        return str;
+		Map<Integer,String> map = new HashMap<>();
+		String[] str = new String[nums.length];
+		int n =  nums.length-1;
+		int[] copy = new int[n+1];
+		for(int i=0; i<= n; i++){
+		    copy[i]= nums[i];
+		}
+		mergeSort(nums, 0, nums.length-1);        
+		for(int i=0; i< nums.length; i++){
+		    if(i==0){
+		        map.put(nums[n-i], "Gold Medal");
+		    }
+		    else if(i==1){
+		        map.put(nums[n-i], "Silver Medal");
+		    }
+		    else if(i==2){
+		        map.put(nums[n-i], "Bronze Medal");
+		    }
+		    else{
+		        map.put(nums[n-i], (i+1)+"");
+		    }
+		}
+		for(int i=0; i< copy.length; i++){
+		    str[i] = map.get(copy[i]); 
+		}
+		return str;
     }
     
     public void mergeSort(int[] nums, int l, int p){
