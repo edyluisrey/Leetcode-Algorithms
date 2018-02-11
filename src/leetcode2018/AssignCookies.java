@@ -1,7 +1,11 @@
 package leetcode2018;
 
+import java.util.Arrays;
+
 public class AssignCookies {
 	public int findContentChildren(int[] g, int[] s) {
+		Arrays.sort(g);
+        Arrays.sort(s);
 		int t = 0;
 		for(int i = 0; i< g.length; i++){
 		    if(isContent(g[i], s))
