@@ -15,12 +15,15 @@ public class LongestPalindrome {
 		   int cont=0;
 		   for(char c: map.keySet()){
 			   if(map.get(c)>1){
-				   cont= cont+ map.get(c);
+		           if(map.get(c)%2==0)
+				     cont= cont+ map.get(c);
+		           else
+		             cont = cont + (map.get(c)-1);  
 			   }
 		   }
 		   if(cont<s.toCharArray().length)
 			   cont= cont+1;
 			   
-			return cont;  
+		   return cont;   
 	}
 }
