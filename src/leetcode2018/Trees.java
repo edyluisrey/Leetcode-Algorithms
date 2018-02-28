@@ -12,8 +12,8 @@ public class Trees {
 		t.left.left = new TreeNode(2);
 		t.left.right = new TreeNode(4);
 		t.right = new TreeNode(7);
-	    //t.right.left = new TreeNode(6);
-	    //t.right.right= new TreeNode(8);
+		//t.right.left = new TreeNode(6);
+		//t.right.right= new TreeNode(8);
 		test.inOrderTraversal(t); 
 		System.out.println();
 		test.preOrderTraversal(t);
@@ -84,14 +84,17 @@ public class Trees {
 	}
 	
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root==null || root==p || q== root) return root; System.out.println(root.val);
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if(left!= null && right!=null) { System.out.println("mid:"+root.val); return root;};
-        System.out.println("left" +left+ " right:"+right);
-        TreeNode re = left!=null? left: right;       
-        return re;
-    }
+		if(root==null || root==p || q== root) return root; System.out.println(root.val);
+		TreeNode left = lowestCommonAncestor(root.left, p, q);
+		TreeNode right = lowestCommonAncestor(root.right, p, q);
+		if(left!= null && right!=null) { 
+			System.out.println("mid:"+root.val); 
+			return root;
+		};
+		System.out.println("left" +left+ " right:"+right);
+		TreeNode re = left!=null? left: right;       
+		return re;
+	}
 
 }
 
