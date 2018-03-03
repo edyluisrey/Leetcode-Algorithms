@@ -12,16 +12,16 @@ public class Trees {
 		t.left.left = new TreeNode(2);
 		t.left.right = new TreeNode(4);
 		t.right = new TreeNode(7);
-		//t.right.left = new TreeNode(6);
-		//t.right.right= new TreeNode(8);
+		t.right.left = new TreeNode(6);
+		t.right.right= new TreeNode(8);
 		test.inOrderTraversal(t); 
 		System.out.println();
 		test.preOrderTraversal(t);
 		System.out.println();
 		test.postOrderTraversal(t);
-		//System.out.println(test.minDepth(t));
-		//test.binaryTreePaths(t);
-		//test.lowestCommonAncestor(t, t.left.left, t.left.right);
+		System.out.println(test.minDepth(t));
+		test.binaryTreePaths(t);
+		test.lowestCommonAncestor(t, t.left.left, t.left.right);
 	}
 	
 	public int minDepth(TreeNode root) {
