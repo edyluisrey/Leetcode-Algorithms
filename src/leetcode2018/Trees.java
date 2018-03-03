@@ -100,7 +100,17 @@ public class Trees {
 		if(p==null && q==null)  return true;
 		if(p==null || q==null)  return false;
 		if(p.val!=q.val)  return false;
+		System.out.println("p:"+p.val+ " , q"+q.val); 
 		return  isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+	}
+	
+	public TreeNode invertTree(TreeNode root) {
+		if(root==null) return null;
+		TreeNode temp= root.left;
+		root.left= invertTree(root.right);
+		root.right= invertTree(temp);
+		System.out.println("mid:"+root.val); 
+		return root;
 	}
 
 }
