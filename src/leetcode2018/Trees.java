@@ -5,7 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import amazon1.TreeNode;
 
 public class Trees {
 
@@ -135,8 +134,6 @@ public class Trees {
 	        return re;
 	 }
 	 
-
-
 }
 
 class TreeNode{
