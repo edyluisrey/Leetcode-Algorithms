@@ -1,7 +1,11 @@
 package leetcode2018;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+
+import amazon1.TreeNode;
 
 public class Trees {
 
@@ -112,6 +116,26 @@ public class Trees {
 		System.out.println("mid:"+root.val); 
 		return root;
 	}
+	
+	 public List<List<Integer>> levelOrder(TreeNode root) {
+	        List<List<Integer>> re = new ArrayList<>(); 
+	        if(root==null) return re;
+	        Queue<TreeNode> q= new LinkedList<>();
+	        q.offer(root);
+	        while(!q.isEmpty()){
+	             List<Integer> level = new ArrayList<>();
+	             for(int i=0; i<q.size();i++){
+	                  TreeNode c = q.poll();
+	                  level.add(c.val);
+	                  if(c.left!=null) q.offer(c.left);
+	                  if(c.right!=null) q.offer(c.right);
+	             }
+	             re.add(level);
+	        }
+	        return re;
+	 }
+	 
+
 
 }
 
