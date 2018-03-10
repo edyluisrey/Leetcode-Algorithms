@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import amazon.TreeNode;
+
 
 public class Trees {
 
@@ -132,6 +134,16 @@ public class Trees {
 	             re.add(level);
 	        }
 	        return re;
+	 }
+	 
+	 public boolean hasPathSum(TreeNode root, int sum) {
+			if(root==null) return false;  
+			System.out.println(root.val);
+			if(root.left==null && root.right==null) {
+				System.out.println(root.val +" ="+ sum);
+				return sum == root.val;
+			}
+			return  hasPathSum(root.left, sum-root.val) || hasPathSum(root.right,sum-root.val);
 	 }
 	 
 }
