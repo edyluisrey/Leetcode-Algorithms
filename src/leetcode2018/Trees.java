@@ -5,8 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import amazon.TreeNode;
-
 
 public class Trees {
 
@@ -145,6 +143,26 @@ public class Trees {
 			}
 			return  hasPathSum(root.left, sum-root.val) || hasPathSum(root.right,sum-root.val);
 	 }
+	 
+	 public List<Double> averageOfLevels(TreeNode root) {
+	        List<Double> result = new ArrayList<Double>();
+	        if(root==null) return result;
+	        Queue<TreeNode> q = new LinkedList<TreeNode>();
+	        q.offer(root);
+	        while(!q.isEmpty()){
+	            double sum = 0;
+	            int size= q.size();
+	            for(int i =0; i< size; i++){
+	                TreeNode currentNode = q.poll();
+	                sum= sum+ currentNode.val;
+	                if(currentNode.left!=null) q.offer(currentNode.left);
+	                if(currentNode.right!=null) q.offer(currentNode.right);
+	            }
+	            double overage= (double)sum/size; 
+	            result.add(overage);
+	        }
+	        return result;
+	    }
 	 
 }
 
