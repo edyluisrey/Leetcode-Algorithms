@@ -1,3 +1,4 @@
+package leetcode2018;
 
 public class MaxAreaofIsland {
 	private int re=0; 
